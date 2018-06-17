@@ -12,7 +12,10 @@ GENRES = []
     puts "Flipping the page...wow, you read fast!"
   end
 
-
+def genre=(genre)
+  @genres=genre
+  GENRES << genre 
+end 
 
 
 
