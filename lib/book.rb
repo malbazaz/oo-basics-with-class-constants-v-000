@@ -14,6 +14,9 @@ GENRES = []
 
 def genre=(genre)
   @genre = genre
+  if GENRES.include?(genre)
+  else 
   GENRES << genre
+end 
 end 
 end
