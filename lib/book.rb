@@ -14,8 +14,10 @@ GENRES = []
 
 def genre=(genre)
   @genre = genre
-  if !GENRES.include?(genre)
+GENRES.each do |genre_check|
+if genre_check != genre     
   GENRES << genre
+end 
 end 
 end 
 end
