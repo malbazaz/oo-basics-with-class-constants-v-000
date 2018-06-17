@@ -12,7 +12,13 @@ GENRES = []
     puts "Flipping the page...wow, you read fast!"
   end
 
-
+def genre=(genre)
+  @genre = genre
+if GENRES.include?(genre)
+  nil 
+else 
+  GENRES << genre 
+end 
 
 
 
