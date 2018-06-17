@@ -15,7 +15,7 @@ GENRES = []
 def genre=(genre)
   @genre = genre
   
-  GENRES.push_if 
+  GENRES.push_if(!=genre)
 end 
 end 
 
