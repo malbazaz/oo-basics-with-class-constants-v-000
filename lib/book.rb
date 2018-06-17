@@ -18,6 +18,6 @@ GENRES.each do |items|
   GENRES.push_if(items != genre)
 end 
 end 
-end 
+
 
 end
