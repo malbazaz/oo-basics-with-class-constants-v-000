@@ -19,6 +19,7 @@ if GENRES.include?(genre)
 else 
   GENRES << genre 
 end 
+end 
 
 
 end
