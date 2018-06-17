@@ -14,9 +14,7 @@ GENRES = []
 
 def genre=(genre)
   @genre = genre
-GENRES.each do |items|
-  GENRES.push_if(items != genre)
-end 
+
 end 
 
 
